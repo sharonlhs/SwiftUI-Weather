@@ -45,7 +45,6 @@ struct ContentView: View {
                     WeatherButton(title: "Change Day Time",
                                   backgroundColour: isNight ? .gray : .white,
                                   textColour: isNight ? .white : .blue)
-                    
                 }
                 Spacer()
             }
@@ -92,7 +91,7 @@ struct BackgroundView: View {
 //            isNight ? .gray : Color("lightBlue")]),
 //            startPoint: .topLeading,
 //            endPoint: .bottomTrailing)
-//        .ignoresSafeArea()
+//        .ignoresSafeArea()‹
         ContainerRelativeShape()
             .fill(isNight ? Color.black.gradient : Color.blue.gradient )
             .ignoresSafeArea()
